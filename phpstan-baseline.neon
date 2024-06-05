@@ -3522,6 +3522,11 @@ parameters:
 			path: src/Core/Framework/Store/Command/StoreLoginCommand.php
 
 		-
+			message: "#^Expected domain exception class Shopware\\\\Core\\\\Framework\\\\Store\\\\StoreException, got Shopware\\\\Core\\\\Framework\\\\Routing\\\\RoutingException$#"
+			count: 1
+			path: src/Core/Framework/Store/InAppPurchase/Api/InAppPurchasesController.php
+
+		-
 			message: "#^Method Shopware\\\\Core\\\\Framework\\\\Store\\\\Search\\\\EqualsFilterStruct\\:\\:fromArray\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Core/Framework/Store/Search/EqualsFilterStruct.php
