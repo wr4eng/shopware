@@ -122,7 +122,8 @@
     "descriptionTextModule": "Manage your extensions",
     "general": {
       "labelPrice": "Free | {price}/month | {price}",
-      "labelDiscountedPrice": "Free | <s>{price}</s> <strong>{discountedPrice}</strong>/month | <s>{price}</s> <strong>{discountedPrice}</strong>"
+      "labelDiscountedPrice": "Free | <s>{price}</s> <strong>{discountedPrice}</strong>/month | <s>{price}</s> <strong>{discountedPrice}</strong>",
+      "taxNotice": "* All prices are exclusive of VAT"
     },
     "listing": {
       "tabs": {
@@ -164,7 +165,11 @@
       "cardTitleChangelog": "Changelog",
       "labelButtonShowPermissions": "Show permissions",
       "labelDiscountInfo": "Offer expires on {endDate}",
-      "labelDiscountPeriod": "*For the first month - | *For the first {months} months - "
+      "labelDiscountPeriod": "*For the first month - | *For the first {months} months - ",
+      "inAppPurchases": {
+        "label": "In-App Purchases",
+        "paymentOptions": "Payment Options"
+      }
     },
     "component": {
       "sw-extension-meteor-page-context-item": {
